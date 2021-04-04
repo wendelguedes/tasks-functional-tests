@@ -64,7 +64,7 @@ public class TasksTest {
     }
 
     @Test
-    public void nadDeveSalvarTarefaSemData() throws MalformedURLException {
+    public void naoDeveSalvarTarefaSemData() throws MalformedURLException {
         WebDriver driver = acessarAplicacao();
         try {
             driver.findElement(By.id("addTodo")).click();
